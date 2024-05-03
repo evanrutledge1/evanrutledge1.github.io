@@ -1,5 +1,1 @@
-(function() {
-    'use strict';
-    window.money = true;
-    window.noMoney = false;
-})();
+var money = true;
