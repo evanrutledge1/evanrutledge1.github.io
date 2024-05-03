@@ -7,3 +7,8 @@ function darkMode() {
   var element = document.body;
   element.classList.toggle("w3-dark-grey");
 }
+if( window.canRunAds === undefined ){
+  document.write('<div class="w3-panel w3-red w3-display-container">');
+  document.write('<span onclick="this.parentElement.style.display=none" class="w3-btn w3-red w3-display-topright">&times;</span><h3>Disable adblock</h3>');
+  document.write('<p>Please disable your adblocker to improve your expereance. Click that red "&times;" to close this message.</p></div>');
+}
