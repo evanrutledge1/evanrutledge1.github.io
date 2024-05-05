@@ -1,5 +1,5 @@
 document.write('<button class="w3-btn w3-left w3-xlarge w3-light-grey" onclick="w3_open()">&#9776;</button>')
-document.write('<div class="w3-left w3-sidebar w3-bar-block w3-border w3-card w3-dark-grey" id="sidebar" style="width:25%">');
+document.write('<div class="w3-left w3-sidebar w3-bar-block w3-border w3-card w3-dark-grey w3-hide-large" id="sidebar" style="width:25%">');
 document.write('<button class="w3-bar-item w3-btn w3-light-grey" onclick="w3_close()">Close &times;</button>');
 document.write('<a href="/index.html" class="w3-bar-item w3-button w3-black">Home</a>');
 document.write('<a href="/games/index.html" class="w3-bar-item w3-button w3-border w3-black">Games</a>');
